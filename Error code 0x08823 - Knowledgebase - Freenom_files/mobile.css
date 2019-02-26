@@ -1,0 +1,299 @@
+
+.category-list ul li a {
+	padding-right: 40px;
+}
+
+@media all and (max-width: 1199px)  /* smaller than 1200 */{
+	
+	
+}
+
+@media all and (max-width: 991px) /* smaller than 992 */ {
+	.bg-image {
+		height: 290px;
+	}
+	
+	.splash-gosite {
+		display: none!important;
+	}
+	.transferContent .domainreginput .largeBtn {
+		width: auto;
+	}
+	.colInformation {
+		border: 0;
+	}
+	img.goSiteLogo.top {
+		float: none!important;
+	}
+	.goSiteLogoWrapper {
+		margin-bottom: 40px;
+	}
+	.getGositeNow {
+		background: rgba(0,174,239,0.55);
+		padding: 20px;
+		overflow: hidden;
+	}
+		.getGositeNow li i {
+			color: #FFF!important;
+		}
+		.getGositeNow .activateGoSite {
+			float: none!important;
+			margin: 20px auto!important;
+			display: table!important;
+			background: #FFF!important;
+			color:rgba(0,174,239,1)!important;
+		}
+	
+	.planTable .max-width {
+		display: block;
+		margin-bottom: 40px!important;
+		float: none;
+		overflow: hidden;
+	}
+	.domainCheck #submitBtn {
+		top: 0;
+	}
+	.content {
+		padding: 30px 15px 0px;
+	}
+	.search-bar {
+	    padding: 20px 0px 40px;
+	}
+	.search .search-bar input[type="text"] {
+	   font-size: 14px;
+	}
+	ul.article-list li p {
+		display: none;
+	}
+	.category-list {
+		padding-top: 0px;
+	}
+	 .category-list.offset-top {
+	 	padding-top: 30px;
+	 }
+    .domainCheck #submitBtn2, .domainCheck #submitBtn {
+        top: 70px;
+    }
+}
+
+@media all and (max-width: 767px) /* smaller than 768 */{
+	.completedOrder, .contentCart, .emailsContent, .invoiceContent, .addfundsContent, .changePassword, .creditCardContent, .userContent, .domainTabcontent {
+		padding: 0 0 30px 0;
+	}
+	.container {
+		padding: 0;
+	}
+	.home .wrapper {
+		margin: 0;
+	}
+	.left-menu {
+		height: 52px;
+		overflow: hidden;
+		display: block;
+		margin-bottom: 30px;
+	}
+		
+		.left-menu.active{
+			height: auto;
+		}
+	.nav-tabs > li > a {
+		border-radius: 4px;
+	}
+	
+	#tabs {
+		float: left;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	
+	.tab-content {
+		float: left;
+		width: 100%;
+	}
+	.pageHeader {
+		background: none;
+	}
+	.pageHeader h1 {
+		font-size: 30px;
+		line-height: 40px;
+		margin: 40px 0;
+	  	overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.pageHeader h1 small{
+		font-size: 16px;
+		margin-top: 10px;
+		line-height: 24px;
+	}
+	.menu-toggle {
+		width: 70px;
+		height: 70px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 10000!important;
+		display: block;
+		cursor: pointer;
+	}
+	.main-header .main-menu {
+	 	display: none;
+	 }
+	.menu-active .main-header {
+	    position: relative;
+	}
+	.menu-active .main-header .row {
+	    background: #FFF;
+	}
+		.menu-active .main-header .main-menu{
+			display: block;
+			position: relative;
+			right: 0;
+			margin-top: 80px;
+		}
+		.main-header .col-md-12{
+			padding: 0;
+		}
+		.menu-active .main-header .main-menu::after{
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0.15);
+			display: block;
+			content: "";
+			bottom: -4px;
+			position: fixed;
+			left: 0;
+			z-index: -1;
+		}
+		.main-header .language-select.drop-down ul {
+			min-width: auto;
+			max-width: auto;
+			width: 100%;
+		}
+		.main-header .language-select.drop-down ul li a{
+			font-size: 14px!important;
+		}
+		.menu-active .main-header .main-menu > li a,.menu-active  .main-header .main-menu > li span {
+			padding: 0;
+		}
+			.menu-active .main-header .main-menu {
+				width: 100%;
+			}
+			.main-header .main-menu li {
+				width: 100%;
+				line-height: 50px;
+			}
+			.main-header .drop-down.active ul {
+			    left: 0;
+			    opacity: 1;
+			    position: relative;
+			    top: 0;
+			}
+				.main-header .main-menu > li {
+				    padding: 0;
+				    text-align: center;
+				}
+					.main-header .main-menu > li a,
+					.main-header .main-menu > li span{
+						color:  rgba(0,174,239,1);
+						line-height: 60px;
+						font-size: 18px;
+						padding: 0 15px;
+						text-align: center;
+						width: 100%;
+					}
+				
+				.main-header .drop-down.active ul a{
+				    padding: 0 15px;
+				    font-size: 16px;
+				    line-height: 60px;
+				    border: 0;
+				    color: #666;
+				    text-align: center;
+				    
+				}
+					.main-header .drop-down.active ul a:hover{
+					    background: none;
+					 }
+			.main-header .drop-down.active{
+				border: 0;
+			}
+		.main-header .drop-down.drop-right.active ul{
+			left: 0;
+			right: auto;
+		}
+		.main-header .language-select.drop-down ul {
+		    max-width: 768px;
+		    min-width: auto;
+		}
+		.main-header .language-select.drop-down ul li a {
+		    line-height: 50px;
+		    text-align: center;
+		}
+	.main-footer .col-md-20 {
+		width:100%;
+		min-height: auto;
+	}
+	thead {
+		display: none!important;
+	}
+	.table  > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th{
+		display: table-row;
+		float: left;
+		width: 100%!important;
+		border: 0;
+		padding: 4px 8px;
+	}
+	.btn-group,
+	.table .smallBtn {
+		margin-left: 0!important;
+		float: left!important;
+		margin-right: 10px!important;
+	}
+	.ticketContent td.last,
+	.domainContent td.eighth,
+	.servicesContent td.sixth {
+		border-bottom: 1px solid #DDD!important;
+		padding-bottom: 14px!important;
+	}
+	.ticketContent td.first,
+	.domainContent td.second,
+	.servicesContent td.first {
+		padding-top: 14px!important;
+	}
+	.home .main-footer {
+		margin-top: -10px;
+	}
+	.pagination {
+		padding:  0 15px 15px;
+		width: 100%;
+		float: left;
+	}
+	.pagination ul {
+		width: 100%;
+	}
+	.pagination ul li.next {
+		float: right;
+	}
+	.domainContent .gositeBtn:visited, .domainContent .gositeBtn {
+		width: auto;
+		float: left!important;
+	}
+	.table tr {
+		position: relative;
+	}
+	.table .label {
+		position: absolute;
+		right: 15px;
+		top: 0;
+		margin: 15px 10px;
+	}
+	.manageGosite {
+	    width: auto!important;
+	}
+	.gositeBtn:hover,
+	.gositeBtn:visited,
+	.gositeBtn {
+		width: auto!important;
+	}
+}
+

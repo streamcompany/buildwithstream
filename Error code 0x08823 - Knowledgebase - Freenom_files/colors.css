@@ -1,0 +1,102 @@
+/*
+Theme Name: Country specific colors
+Version: 1.0
+Author: P. Huizinga @ Freenom
+*/
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.mainHeader .mainNav a.active {
+	border-color:  rgba(0,173,236,1);	
+	color:  rgba(0,173,236,1);	
+}
+
+.table th a,
+.mainHeader a:hover,
+.preHeader a:hover{
+	color:  rgba(0,173,236,1);	
+}
+
+.signuptype.active,
+input[type="submit"].primaryColor {
+	background: rgba(0,173,236,1);	
+	color:  #FFF;
+}
+.wrapperForTransparency > section {
+	background: rgba(0,173,236,0.85);
+}
+section.errorMessages,
+section.error-messages{
+	background: rgba(0,173,236,0.85);
+	color: #FFF;
+}
+section.errorMessages.succes,
+section.error-messages.succes{
+	background: #bce484;
+	color: #536e2e;
+}
+section.errorMessages.error,
+section.error-messages.error {
+	background: #DD4B39;	
+	color:  #FFF !important;
+}
+section.errorMessages.caution,
+section.error-messages.caution {
+	background: #ff9900!important;	
+	color:  #FFF !important;
+}		
+.domainCheck input[type="submit"],
+.submitBtn {
+	background: rgba(0,173,236,1);	
+	border: 0;
+	color: #FFF;
+}
+.cautionColor {
+	background: #ff9900;	
+	color:  #FFF !important;
+	border-color:  #f09000;
+}
+
+.domainContent .results .label.expired  {
+	background: #ff9900;	
+	color:  #FFF !important;
+}
+.primaryGrey {
+	background: #CCC;
+	color:  #FFF !important;
+	border-color: #CCC;
+	margin-right: 10px;
+	margin-bottom: 0;
+}
+.login-form.primaryGrey,
+.login-form .primaryColor {
+	margin-bottom: 0;
+}
+.primaryColor {
+	background: rgba(0,173,236,1);		
+	color:  #FFF !important;
+	border-color:   rgba(0,173,236,1) !important;	
+}
+section.downloadContent ul.fileList li a,
+section.downloadContent ul.categoryList li a,
+.whoisContent h2,
+.primaryFontColor {
+	color:  rgba(0,173,236,1);
+}
+.primaryFontColor small {
+	color:  rgba(36,47,95,1);	
+}
+.textred {
+	color: #CC0000;
+}
+.colInformation h2,
+.textgreen {
+	color: rgba(0,173,236,1);	
+}
+
+.active > .freenomBtn.useDNS,
+.active >  .freenomBtn.useForward  {
+	background: rgba(0,173,236,0.8);	
+	border: 1px solid rgba(0,173,236,1);	
+		color: #FFF;	
+}

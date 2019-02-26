@@ -1,0 +1,22 @@
+$(document).ready(function($){
+	$('.slide').click(function() {
+		$('.slide').toggleClass('on');
+	});
+	$('.drop-down').click(function() {
+		$(this).closest('li') // get current LI
+		   .toggleClass('active')
+		   .siblings() // get adjacent LIs
+		   .removeClass('active');
+	});
+	$('.menu-toggle').click(function() {
+		$('body').toggleClass('menu-active');
+		window.scrollTo(0,0);
+	});	
+});
+$(document).click(function(event) { 
+    if(!$(event.target).closest('.drop-down').length) {
+        if($('.drop-down.active ul').is(":visible")) {
+            $('.drop-down').removeClass('active');
+        }
+    }        
+})

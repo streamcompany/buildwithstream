@@ -1,0 +1,68 @@
+$(document).ready(function(){
+	$(window).scroll(function(){
+	    if($(this).scrollTop() > 100 ){
+	        $('.stickem').addClass("fixed");
+	    } else {
+	        $('.stickem').removeClass("fixed");
+	    }
+	});
+	$('.toggleContainer').click(function() {
+		$('body').toggleClass('menu-active');
+	});
+	$('.instructions span').click(function() {
+		$('#overlay').addClass('active');
+	});
+	$('.instructions .Windows10').click(function() {
+		$('#overlay').addClass('windows10');
+	});
+	
+	$('.instructions .Windows8').click(function() {
+		$('#overlay').addClass('windows8');
+	});
+	$('.instructions .Windows7').click(function() {
+		$('#overlay').addClass('windows7');
+	});
+	
+	$('.instructions .WindowsVista').click(function() {
+		$('#overlay').addClass('wvista');
+	});
+	$('.instructions .WindowsXP').click(function() {
+		$('#overlay').addClass('wxp');
+	});
+	$('.instructions .AppleOSX').click(function() {
+		$('#overlay').addClass('osx');
+	});
+	$('.instructions .ApplemacOS').click(function() {
+		$('#overlay').addClass('macos');
+	});
+	$('.instructions .AppleiOS').click(function() {
+		$('#overlay').addClass('ios');
+	});
+	$('.instructions .Android').click(function() {
+		$('#overlay').addClass('android');
+	});
+	$('.instructions .Linux-FreeBSD').click(function() {
+		$('#overlay').addClass('linux');
+	});
+	$('#overlay .close-overlay').click(function() {
+		$('#overlay').removeClass();
+		$('#video-why-freenom')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+		$('#video-windows10')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+		$('#video-windows8')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
+		$('#video-windows7')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');  
+		$('#video-wxp')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');  
+		$('#video-wvista')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');  
+		$('#video-osx')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');  
+		$('#video-macos')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');  
+		$('#video-ios')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');   
+		$('#video-android')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');   
+		$('#video-linux')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+$('#video-why-freenom')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+	});
+	
+	$('.why-freenom').click(function() {
+		$('#overlay').addClass('active');
+		$('#overlay').addClass('why-freenom');
+	});
+	
+});
